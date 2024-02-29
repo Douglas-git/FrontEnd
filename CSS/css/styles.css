@@ -1,0 +1,10 @@
+/* Comentário */
+body{
+    /* Centralizar a tela easy */
+    padding-bottom: 500px;
+}
+h2{
+    color: blue;
+    font-size: 25px;
+    border-bottom: 2px solid blue;
+}

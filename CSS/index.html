@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- 3 -> Internal CSS -->
+    <style>
+        p{
+            color: purple;
+            font-size: 30px;
+            border-bottom: 3px solid red;
+        }
+    </style>
+    <!-- 4 -> External CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+    <!-- 1 -> Inline CSS - cor de fontes -->
+    <h1 style="color: green">Título da página</h1>
+    <h1 style="color: blue">Outro título</h1>
+
+    <!-- 2 -> Múltiplas regras -->
+    <h1 style="color: palevioletred; font-size: 40px; border-bottom: 10px solid yellowgreen;">Múltiplas regras</h1>
+
+    <!-- 3 -> Internal CSS -->
+    <p>Afetou esse</p>
+    <p>Esse também</p>
+    <p>E esse também</p>
+
+    <!-- 4 -> External CSS -->
+    <h2>External CSS</h2>
+
+    <!-- 5 -> Ordem CSS: inline > internal = external > padrão do navegador -->
+
+    <!-- inline: criado na mesma linha da variável -->
+    <!-- internal: Dentro do código -->
+    <!-- external: outra classe -->
+    <!-- Prevalece a ordem de inserção entre internal e external -->
+
+    <!-- 6 ->  Múltiplos arquivos (List) CSS-->
+
+    <ul>
+        <li>Primeiro</li>
+        <li>Segundo</li>
+        <li>Terceiro</li>
+    </ul>
+
+</body>
+</html>
