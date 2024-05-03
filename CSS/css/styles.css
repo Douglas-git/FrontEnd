@@ -22,3 +22,43 @@ h2{
     padding: 10px;
     font-size: 40px;
 }
+
+/* Procedência id > classe > tag */
+
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#outro-titulo{
+    border-bottom:  4px solid yellowgreen;
+}
+
+/*Cores*/
+.classe-cor{
+    color:rgb(202, 3, 3)
+}
+
+/*Cores com hex*/
+.hex{
+    color: #00fa3e
+}
+
+/*Cores com RGB = red,green,blue */
+.rgb{
+    color: rgb(130, 50, 111)
+}
+
+/*Cores com RGBA, 0 até 1*/
+
+.rgba{
+    color: rgb(23, 51, 40, 0.5)
+}
+
+/* HSL */
+.hsl{
+    color: hsl(100, 25%, 50%)
+}
