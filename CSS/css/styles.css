@@ -104,3 +104,44 @@ h2 {
 .imagem-c{
     background-position: center;
 }
+
+/* Altura e largura */
+.width-height{
+    height: 30px;
+    width: 35px;
+    background-color: green;
+}
+.width-height-2{
+    height: 40px;
+    background-color: #000;
+}
+
+/* Padding */
+.not-padding,
+.padding{
+    background-color: #ca1919;
+    color: #fff;
+}
+
+.padding{
+    padding: 25px;
+    background-color: blue;
+}
+
+/* Padding individual */
+.padding-individual{
+    background-color: red;
+    color: yellowgreen;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+}
+
+/* Padding numa regra */
+.padding-2{
+    background-color: #000;
+    color: pink;
+    padding: 10px 15px 10px 15px; 
+    /* é o msm que padding: 10px 15px; */
+}
