@@ -62,3 +62,45 @@ h2 {
 .hsl{
     color: hsl(100, 25%, 50%)
 }
+/* Background-color*/
+.bg{
+    background-color: #000;
+    color: yellowgreen
+}
+.bg-2{
+    background-color: #04fe04;
+    color: hsl(32, 94%, 40%)
+}
+/* Bg-opacity */
+.bg-opacity{
+    background-color: #000;
+    opacity: 0.5;
+}
+.bg-opacity-2{
+    background-color: #000;
+    color: #59ef22;
+    opacity: 0.8;
+}
+/* Bg-RGBA-opacity */
+.bg-rgba{
+    background-color: rgba(90, 120, 20, 0.7);
+    color: red;
+}
+/* Bg-Imagem */
+.imagem{
+    background-image: url(../img/download.jpg);
+    padding: 10px;
+    color: #fff;
+}
+
+/* imagem não-centralizada e centralizada */
+
+.not-imagem-c,
+.imagem-c{
+    height: 240px;
+    width: 200px;
+    background-image: url(../img/palmeiras.jpg);
+}
+.imagem-c{
+    background-position: center;
+}

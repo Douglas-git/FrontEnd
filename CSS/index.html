@@ -7,9 +7,9 @@
     <!-- 3 -> Internal CSS -->
     <style>
         p{
-            color: purple;
+            /*color: purple;*/
             font-size: 30px;
-            border-bottom: 3px solid red;
+            /*border-bottom: 3px solid red;*/
         }
     </style>
     <!-- 4 -> External CSS -->
@@ -74,7 +74,7 @@
 
     <!-- 12 -> Cores com RGB = red,green,blue  -->
 
-    <p class="rgb">Estilizandom com RGB</p>
+    <p class="rgb">Estilizado com RGB</p>
 
     <!-- 13 -> RGBA, a vem de alpha e a alteração dele muda a opacidade da cor;
     Onde os valores possíveis são 0 a 1;
@@ -82,12 +82,45 @@
 
     <p class="rgba">Estilizando com RGBA</p>
 
-    <!-- HSL = hue, saturation and lightness
+    <!-- 14 -> HSL = hue, saturation and lightness
     abordagem não muito utilizada, sendo o
     ranking de uso: HEX> RGB> HSL> Nomes de cor.
     definição: hsl(0-255, 0-100%, 0-100%) -->
 
-    <p class="hsl">Estilizando com hsl </p>
+    <p class="hsl">Estilizado com hsl </p>
+
+    <!-- 15 -> BackGround-color -->
+    <p class="bg">Parágrafo com fundo</p>
+    <h2 class="bg-2">Parágrafo com fundo 2</h2>
+
+    <!-- 16 -> Background-opacity: Podemos alterar a opacidade de uma cor de fundo com CSS-->
+    <div class="bg-opacity">
+        <p>Estou aqui</p>
+    </div>
+
+    <!-- OBS: verificar se há alguma regra externa, como se fosse uma
+    variável global, q possa interferir
+    como no <p> por exemplo. -->
+
+    <div class="bg-opacity-2">
+        <p>Estou aqui 2</p>
+    </div>
+
+    <!-- 17 -> RGBA com opacity para alterar somente uma cor -->
+    <div class="bg-rgba">
+        <h1>Opacity and RGBA</h1>
+    </div>
+
+    <!-- 18 -> bg-imagem -->
+    <div class="imagem">
+        <h1>Tem imagem 2</h1>
+    </div>
+    <!-- Centralizar imagem
+    background-position com o valor de center e
+    background-size com o valor de cover -->
+
+    <div class="not-imagem-c"></div>
+    <div class="imagem-c"></div>
 
 </body>
 </html>
