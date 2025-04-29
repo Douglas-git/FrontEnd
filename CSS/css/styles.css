@@ -145,3 +145,18 @@ h2 {
     padding: 10px 15px 10px 15px; 
     /* é o msm que padding: 10px 15px; */
 }
+
+/*Padding with width */
+.without-border-box{
+    background-color: #ca1919;
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+.border-box{
+    background-color: #3c19ca;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
