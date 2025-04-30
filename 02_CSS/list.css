@@ -1,0 +1,14 @@
+/* 5: lista: mult arq CSS */
+
+li{
+    color: purple;
+}
+table{
+    border: 5px solid blue;
+}
+/* 6:Classes */
+.paragraph{
+    background-color: black;
+    padding: 5px;
+    color: orange;
+}

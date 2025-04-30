@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- 3: Internal CSS -->
+    <style> 
+        p{
+            color: pink;
+            font-size: 20px;
+            border-bottom: 2px solid black;
+        }
+    </style>
+    <!-- 4: External CSS -->
+     <link rel="stylesheet" href="styles.css" />
+     <link rel="stylesheet" href="list.css" />
+</head>
+<body>
+    <!-- 1: Inline CSS -->
+     <h1 style="color: green">Mudar cor com Inline</h1>
+     <h2 style="color: blue">Outro título</h2>
+    
+    <!-- 2: Multiplas Regras -->
+     <h1 style="color: yellow; font-size: 12px; border-bottom: 1px solid blue;">Mudar cor e tamanho</h1>
+
+    <!-- 3: Internal CSS -->
+     <p>Alterações com o Internal</p>
+     <p>Outra alteração com Internal</p>
+
+    <!-- 4: External CSS -->
+     <!-- Ordem do CSS: inline > internal = external > padrão -->
+     <h2>External CSS</h2>
+
+    <!-- 5: Mult Arq CSS -->
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Douglas</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Lorena</td>
+            <td>21</td>
+        </tr>
+        
+    </table>
+
+    <!-- 6: Classes -->
+     <p class="paragraph">Primeiro</p>
+     <p class="paragraph">Segundo</p>
+     <p class="paragraph">Terceiro</p>
+     
+</body>
+</html>
