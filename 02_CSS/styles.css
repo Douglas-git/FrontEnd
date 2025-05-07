@@ -1,7 +1,124 @@
 /* 4: External CSS */
 body{
-    padding-bottom: 500px;
+    padding-bottom: 5px;
 }
+
 h2{
-    color: green
+    color: green;
+    font-size: 20px;
+}
+
+/* 6:Classes */
+.paragraph{
+    background-color: black;
+    padding: 5px;
+    color: orange;
+}
+/* 7: Ids */
+#id_select {
+    background-color: orangered;
+    color: black;
+    padding: 8px;
+}
+/* 8: Color Name */
+.color-name {
+    color: #3fe180;
+}
+.nameRGB {
+    color: rgb(145, 102, 5)
+}
+.nameRGBA {
+    /* a ultima inserção é a transparência */
+    color: rgba(255, 0, 0, 0.5);
+}
+.nameHSL {
+    color: hsl(100, 22%, 15%);
+}
+.opacidade {
+    background-color: rgb(19, 6, 2);
+    opacity: .6;
+}
+/* 9: Inserção de imagem */
+.srcImg{
+    /* Insere uma imagem no fundo do testo */
+    background-image: url("../02_CSS/img/estrela.jpeg");
+    padding: 15px;
+    color: rgb(232, 232, 147)
+}
+/* 10: Configurando a Img */
+.bg-config,
+.not-bg-config{
+    height: 200px;
+    width: 200px;
+    background-image: url("../02_CSS/img/aparabarros.jpg");
+}
+
+.bg-config{
+    background-position: center;
+    background-size: cover;
+}
+/* 11: Box Model */
+.largura-altura{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+}
+.com-padding{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border: 10px solid white;
+}
+.sem-padding{
+    background-color: #3e403e;
+    border: 10px solid white;
+}
+.padding-ind{
+    background-color: blue;
+    padding-top: 10px;
+    padding-left: 300px;
+    border: 10px solid white;
+}
+.shorthand-padding{
+    background-color: yellow;
+    padding: 5px 10px 15px 20px;
+    border: 10px solid white;
+}
+.padding-width{
+    background-color: green;
+    width: 200px;
+    padding: 20px;
+    border-bottom: 10px dotted blue;
+}
+.padding-width-2{
+    background-color: green;
+    width: 200px;
+    padding: 20px;
+    border-top: 10px dashed rgb(8, 90, 172);
+    box-sizing: border-box;
+}
+.padding-width-3{
+    background-color: #010f8d;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-top: 10px dashed rgb(237, 29, 29);
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+/* Desafio */
+#desafio{
+    margin: 20px;
+    background-color: brown;
+    padding: 5px 10px 15px 200px;
+    border: 10px dashed pink ;
+    border-radius: 50px;
+    outline: 5px solid red;
+}
+.um-Id{
+    background-color: #000;
+    border:10px dotted yellow;
+    padding-left: 200px;
+    border-bottom:5px solid orange;
+    /* border: none; -> Elimina as config */
 }
