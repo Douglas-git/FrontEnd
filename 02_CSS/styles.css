@@ -122,3 +122,23 @@ h2{
     border-bottom:5px solid orange;
     /* border: none; -> Elimina as config */
 }
+/* 12: Texto Alinhado */
+.text-aligned{
+    text-align: right;
+}
+.text-aligned-2{
+    text-align: center;
+    border: 2px solid red;
+}
+/* 13: Texto Decorado */
+.underline{
+    text-decoration: underline;
+}
+.underline-2{
+    text-decoration:line-through;
+    color:#3e403e;
+}
+.underline-3{
+    color:#015824;
+    text-decoration: none;
+}
