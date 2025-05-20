@@ -1,3 +1,10 @@
 h1{
-    color: green;
+    left: 800px;
+}
+.img{
+    background-image: url(../img/LinkinPark.jpg);
+    height: 900px;
+    width: 1950px;
+    background-position: center;
+    background-size: cover;
 }
